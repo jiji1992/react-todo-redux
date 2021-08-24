@@ -1,0 +1,76 @@
+body {
+  background: #09cae4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c90d4, #3a28d6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3803f8, #1805bd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.App {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border:  ridge 1px black;
+  width: 45%;
+  margin-left: 30% ;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Done {
+  text-decoration: line-through;
+}
+.text-imput{
+  margin-top: 20px;
+  background: border-box;
+  color: #eee6e6ec;
+  border-top: none;
+  width: 200px;
+  padding: 5px;
+}
+
+
+.input {background: border-box;
+}
+.input-item {
+  outline: none;
+  padding: 14px 32px 14px 16px;
+  background: transparent;
+  width: 28vw;
+  border-radius: 4px 0 0 4px;
+  color: rgb(239, 239, 248);
+}
+
+
+
+
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 3vmin);
+  color: rgb(216, 208, 208);
+}
+
+
+.icon {
+  margin-top: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.select {
+  margin-top: 20px;
+  background: border-box, #fdfdfd;
+  color: rgb(14, 13, 13);
+  border-top: none;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
